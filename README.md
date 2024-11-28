@@ -18,11 +18,10 @@ An **User Management System** built with **Angular** (frontend), **Tailwind CSS*
 
 ## Features
 
-- View employee data in a responsive table.
+- View employee data in a table.
 - Add new employee records via a form with validation.
 - Edit existing employee records.
 - Delete employee records.
-- Fully responsive design using **Tailwind CSS**.
 
 ---
 
@@ -87,15 +86,5 @@ employee-management-system/
 ├── tailwind.config.js
 ├── package.json
 └── README.md
-Screenshots
-Add User Form
+![image](https://github.com/user-attachments/assets/856a9348-10c5-4b6e-8106-aab403656b85)
 
-User List Table
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-vbnet
-Copy code
-
-This markdown format should render properly when pasted into a GitHub `README.md` file,
