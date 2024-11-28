@@ -1,46 +1,63 @@
-An Employee Management System built with Angular (frontend), Tailwind CSS (styling), and TypeScript. This application allows users to manage employee records, including adding, editing, deleting, and displaying user information.
+# User Management System
 
-Table of Contents
-Features
-Tech Stack
-Installation
-Usage
-Folder Structure
-Screenshots
-License
-Features
-View employee data in a responsive table.
-Add new employee records via a form with validation.
-Edit existing employee records.
-Delete employee records.
-Fully responsive design using Tailwind CSS.
-Tech Stack
-Frontend
-Framework: Angular
-Styling: Tailwind CSS
-Language: TypeScript
-Backend
-NodeJS, ExpressJS, MongoDB
-Installation
-Clone the repository:
+An **User Management System** built with **Angular** (frontend), **Tailwind CSS** (styling), and **TypeScript**. This application allows users to manage employee records, including adding, editing, deleting, and displaying user information.
 
-bash
-Copy code
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+---
+
+## Features
+
+- View employee data in a responsive table.
+- Add new employee records via a form with validation.
+- Edit existing employee records.
+- Delete employee records.
+- Fully responsive design using **Tailwind CSS**.
+
+---
+
+## Tech Stack
+
+### Frontend
+- **Framework:** Angular
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+
+### Backend
+- **Framework:** Node.js, Express.js
+- **Database:** MongoDB
+
+---
+
+## Installation
+
+### Clone the Repository
+```bash
 git clone https://github.com/your-username/employee-management-system.git
 cd employee-management-system
-Install dependencies:
-
+Install Dependencies
 bash
 Copy code
 npm install
-Start the development server:
-
+Start the Development Server
 bash
 Copy code
 ng serve
 Navigate to http://localhost:4200/ in your browser to view the app.
 
 For Production Build
+To build the app for production:
+
 bash
 Copy code
 ng build --prod
@@ -53,3 +70,32 @@ Interact with the application:
 Add new users through the "Add User" form.
 View user details in a responsive table.
 Edit or delete users using the action buttons.
+Folder Structure
+sql
+Copy code
+employee-management-system/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── user-list/
+│   │   │   ├── add-user/
+│   │   └── services/
+│   ├── assets/
+│   ├── environments/
+│   ├── styles.css
+│   └── index.html
+├── tailwind.config.js
+├── package.json
+└── README.md
+Screenshots
+Add User Form
+
+User List Table
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+vbnet
+Copy code
+
+This markdown format should render properly when pasted into a GitHub `README.md` file,
